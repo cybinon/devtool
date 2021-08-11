@@ -1,12 +1,19 @@
 {
   "compilerOptions": {
-    "target": "es2020",
+    "target": "esnext",
     "module": "commonjs",
-    "rootDir": "./src",
-    "outDir": "./build",
-    "esModuleInterop": true,
+    "declaration": true, // add and output type defs file in the dist folder 
+    "sourceMap": true,
+    "outDir": "./dist",
     "strict": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
-  }
+    "rootDir": "./src"
+  },
+  "include": [
+    "src/**/*",
+    "typings.d.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts"
+  ]
 }
