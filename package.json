@@ -2,12 +2,12 @@
   "name": "@nikorunikk/devtool",
   "version": "0.0.6",
   "description": "",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
-    "test": "exit 0;"
+    "test": "ts-node index.test.ts"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/nikorunikk/devtool/issues"
   },
-  "homepage": "https://github.com/nikorunikk/devtool#readme"
+  "homepage": "https://github.com/nikorunikk/devtool#readme",
+  "dependencies": {
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  }
 }
