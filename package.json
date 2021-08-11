@@ -1,0 +1,19 @@
+{
+  "name": "@nikorunikk/devtool",
+  "version": "0.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nikorunikk/devtool.git"
+  },
+  "author": "nikorunikk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikorunikk/devtool/issues"
+  },
+  "homepage": "https://github.com/nikorunikk/devtool#readme"
+}
