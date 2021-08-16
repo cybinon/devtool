@@ -1,3 +1,4 @@
-import { orgThemes } from './src';
+import { utils } from './src';
+import {consoleColor} from './src/utils'
 
-console.log(orgThemes);
+console.log(consoleColor.Bright, utils);

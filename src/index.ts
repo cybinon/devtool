@@ -1,4 +1,5 @@
-import {Theme} from './typesAndInterfaces/interfaces';
+import { Theme } from './typesAndInterfaces/interfaces';
+import * as utils from './utils'
 
 const dark: Theme = {
     background: '#476646',
@@ -9,3 +10,7 @@ const dark: Theme = {
 export const orgThemes = {
     dark,
 };
+
+export {
+    utils
+}

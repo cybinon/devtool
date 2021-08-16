@@ -1,6 +1,6 @@
 {
   "name": "@nikorunikk/devtool",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -16,7 +16,8 @@
     "clean": "rimraf dist",
     "tscBuild": "tsc --build",
     "build": "npm run clean && npm run tscBuild",
-    "prepare": "npm run build"
+    "version:change": "json -I -f package.json -e \"this.version=this.version+'1'\"",
+    "release": "npm run build && npm run version:change && npm publish"
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
@@ -60,6 +61,7 @@
     "eslint-plugin-jest": "^24.4.0",
     "husky": "^7.0.1",
     "jest": "^27.0.6",
+    "json": "^11.0.0",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
     "rimraf": "^3.0.2"
