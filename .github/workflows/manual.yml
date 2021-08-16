@@ -27,7 +27,7 @@ jobs:
           node-version: 12
       - run: npm install
       - run: npm ci
-      - run: npm lint
+      - run: npm run lint
 
   publish-gpr:
     needs: build
