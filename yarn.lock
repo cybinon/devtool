@@ -2705,11 +2705,6 @@ json5@^2.1.2:
   dependencies:
     minimist "^1.2.5"
 
-json@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/json/-/json-11.0.0.tgz#2e84493134e2f42c131165aa22a124df38b3a3ee"
-  integrity sha512-N/ITv3Yw9Za8cGxuQqSqrq6RHnlaHWZkAFavcfpH/R52522c26EbihMxnY7A1chxfXJ4d+cEFIsyTgfi9GihrA==
-
 kleur@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
@@ -2911,6 +2906,11 @@ minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+
+mon_num@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/mon_num/-/mon_num-1.0.3.tgz#cb1db2d299bc2bb7ac5f3b421080e74876897e59"
+  integrity sha512-xvtlTF6NR/fyP1WOWoCR7MQ354I0/6gT3N02aYK1PgYss50ZU5BToS6YhHd3waT0Uvxn7DSOZ5t4VRV5kYhv5w==
 
 ms@2.0.0:
   version "2.0.0"

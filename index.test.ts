@@ -1,4 +1,14 @@
-import { utils } from './src';
-import {consoleColor} from './src/utils'
+import * as test from './src'
 
-console.log(consoleColor.Bright, utils);
+(async ()=> {
+  console.time()
+  try{
+    console.log(test.toWords(247))
+    console.clear()
+    console.log('done')
+  }catch(e){
+    console.clear()
+    console.log(e.message)
+  }
+  console.timeEnd()
+})()
