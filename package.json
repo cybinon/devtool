@@ -11,6 +11,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
+    "cybo": "ts-node src/cli.ts",
     "test": "ts-node index.test.ts",
     "lint": "eslint 'src/**/*.{js,ts,jsx,tsx}' --quiet --fix",
     "clean": "rimraf dist",
@@ -40,6 +41,7 @@
   },
   "homepage": "https://github.com/nikorunikk/devtool#readme",
   "dependencies": {
+    "axios": "^0.25.0",
     "base-64": "^1.0.0",
     "express": "^4.17.1",
     "joi": "^17.4.2",
@@ -55,14 +57,16 @@
     "@types/joi": "^17.2.3",
     "@types/nodemailer": "^6.4.4",
     "@types/utf8": "^3.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.29.1",
-    "@typescript-eslint/parser": "^4.29.1",
-    "eslint": "^7.32.0",
-    "eslint-plugin-jest": "^24.4.0",
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.1",
     "jest": "^27.0.6",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1"
   }
 }

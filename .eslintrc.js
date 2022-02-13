@@ -1,40 +1,25 @@
-// eslint-disable-next-line no-undef
 module.exports = {
-    root         : true,
-    parser       : '@typescript-eslint/parser',
+    parser: '@typescript-eslint/parser',
     parserOptions: {
-        ecmaVersion: 2020, // enable parsing latest ECMAScript
-        sourceType : 'module', // allow use of imports
+      project: 'tsconfig.json',
+      sourceType: 'module',
     },
-    plugins: ['@typescript-eslint', 'jest'],
+    plugins: ['@typescript-eslint/eslint-plugin'],
     extends: [
-        'eslint:recommended',
-        'plugin:@typescript-eslint/recommended',
-        'plugin:jest/recommended',
+      'plugin:@typescript-eslint/recommended',
+      'plugin:prettier/recommended',
     ],
-    rules: {
-        // here add any ESlint rules to overwrite those
-        // from the recommended extensions
-        'key-spacing'               : [1, { align: 'colon' }],
-        'jest/no-disabled-tests'    : 'warn',
-        'jest/no-focused-tests'     : 'error',
-        'jest/no-identical-title'   : 'error',
-        'jest/prefer-to-have-length': 'warn',
-        'jest/valid-expect'         : 'error',
-        'comma-spacing'             : [1, {before: false, after: true}],
-        'quote-props'               : ['error', 'as-needed'],
-        quotes                      : ['error', 'single'], 
-        'no-unused-vars'            : [
-            1,
-            { vars: 'local', args: 'none', ignoreRestSiblings: true }
-          ],
-    },
-    settings: {
-        jest: {
-            version: 'latest',
-        },
-    },
+    root: true,
     env: {
-        jest: true,
+      node: true,
+      jest: true,
     },
-};
+    ignorePatterns: ['.eslintrc.js'],
+    rules: {
+      '@typescript-eslint/interface-name-prefix': 'off',
+      '@typescript-eslint/explicit-function-return-type': 'off',
+      '@typescript-eslint/explicit-module-boundary-types': 'off',
+      '@typescript-eslint/no-explicit-any': 'off',
+    },
+  };
+  

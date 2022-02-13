@@ -1,14 +1,13 @@
-import * as test from './src'
+import { toWords, GetErrorMessage } from './src';
 
-(async ()=> {
-  console.time()
-  try{
-    console.log(test.toWords(247))
-    console.clear()
-    console.log('done')
-  }catch(e){
-    console.clear()
-    console.log(e.message)
+(async () => {
+  console.time();
+  try {
+    console.clear();
+    GetErrorMessage();
+  } catch (e) {
+    console.clear();
+    console.log(e.message);
   }
-  console.timeEnd()
-})()
+  console.timeEnd();
+})();
