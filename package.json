@@ -19,6 +19,7 @@
     "build": "npm run clean && npm run tscBuild",
     "release": "npm run build && npm run version:change && npm publish"
   },
+  "bin": "dist/cli.ts",
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
       "npm run lint",
