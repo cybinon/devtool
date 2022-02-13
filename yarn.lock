@@ -314,6 +314,21 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
+"@cybinon/devtool@^0.2.1":
+  version "0.2.1"
+  resolved "https://npm.pkg.github.com/download/@cybinon/devtool/0.2.1/c3de86edffca388e74294ce0bd9977614b6e9077f6d1baaa75c38027f3213734#f6e059b76e8aecf8d53a4549cb14caeae84c5bec"
+  integrity sha512-zeZN4H/FkDvemHYp3i+NXL00Iy39uLHqKNGrVvImhst//dP4HBsz+uqnlQTWwqdAUsawiFgH7vg4uqnlEzS36w==
+  dependencies:
+    axios "^0.25.0"
+    base-64 "^1.0.0"
+    express "^4.17.1"
+    joi "^17.4.2"
+    mon_num "^1.0.3"
+    nodemailer "^6.6.3"
+    ts-node "^10.2.0"
+    typescript "^4.3.5"
+    utf8 "^3.0.0"
+
 "@eslint/eslintrc@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.1.0.tgz#583d12dbec5d4f22f333f9669f7d0b7c7815b4d3"
