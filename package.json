@@ -1,6 +1,6 @@
 {
-  "name": "@nikorunikk/devtool",
-  "version": "0.1.33",
+  "name": "@cybinon/devtool",
+  "version": "0.2.0",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -32,14 +32,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nikorunikk/devtool.git"
+    "url": "git+ssh://git@github.com/cybinon/devtool.git"
   },
-  "author": "nikorunikk",
+  "author": "cybinon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nikorunikk/devtool/issues"
+    "url": "https://github.com/cybinon/devtool/issues"
   },
-  "homepage": "https://github.com/nikorunikk/devtool#readme",
+  "homepage": "https://github.com/cybinon/devtool#readme",
   "dependencies": {
     "axios": "^0.25.0",
     "base-64": "^1.0.0",
